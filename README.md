@@ -1,2 +1,2 @@
-# eZone--UCI--mg2021
+# eZone--mgmg--UCI2021
 UCI Lecture on Monogramming 2021
