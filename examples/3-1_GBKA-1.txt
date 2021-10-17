@@ -1,0 +1,95 @@
+#
+# (3-1) Basic operation of the cu command
+#
+# Last update: Tue Aug 24 08:28:33 JST 2021 by @hohno_at_kuimc
+#
+
+# Public domain
+
+# ----------------------------------------------------------
+
+# Description: Learn the basic operation of the cu command
+
+# Requirement: cu command, prepare one of the sketches of Lesson 0 or Lesson 2 for GBKA
+
+# ----------------------------------------------------------
+
+# (Step0)
+
+# Note: Before executing the following commands, be sure to check the COM port number, which can be found in the Arduino IDE.
+# If the COM port number is 5, replace /dev/ttyS3 with /dev/ttyS5 in the following command, and if the COM port number is something else, replace it as well.
+
+(T2)$ ls -l /dev/ttyS3
+(T2)$ sudo chmod 666  /dev/ttyS3
+(T2)$ ls -l /dev/ttyS3
+
+# ----------------------------------------------------------
+
+# (Step1)
+
+(T2)$ cu -f -s 57600 -l /dev/ttyS3
+
+# Note: To stop the cu command, type ENTER ~ . ENTER in this order (Do not type these keys at the same time)
+
+# ----------------------------------------------------------
+
+# (Step2)
+
+(T2)$ cu -f -s 57600 -l /dev/ttyS3 | cat -u -n
+
+# Note: To stop the cu command, type ENTER ~ . ENTER in this order (Do not type these keys at the same time)
+
+# ----------------------------------------------------------
+
+# (Step3)
+
+* Prepare a new symbolic link
+
+$ ln -s /mnt/c/Users/YOUR_WINDOWS_NAME/Desktop $HOME/Desktop
+$ cd
+$ ls ./Desktop
+$ ls -l ./Desktop
+# Confirm this: Did you see the contents of your Desktop?* Prepare a new symbolic link
+
+$ ln -s /mnt/c/Users/YOUR_WINDOWS_NAME/Desktop $HOME/Desktop
+
+(T2)$ cu -f -s 57600 -l /dev/ttyS3 | cat -u -n | tee $HOME/Desktop/99-Lesson3A.tsv
+
+# Note: To stop the cu command, type ENTER ~ . ENTER in this order (Do not type these keys at the same time)
+
+* Action1: Find testStep3.tsv file on your Desktop
+* Action2: Open your MS excel and open a new sheet. Then try to read the TSV file
+
+# ----------------------------------------------------------
+
+# (Step4)
+
+(T2)$ cu -f -s 57600 -l /dev/ttyS3 | nkf -u -Lw | mosquitto_pub -l -t MGWS/Lesson3A
+
+(T3)$ mosquitto_sub -t MGWS/Lesson3A
+
+(T4)$ mosquitto_sub -t MGWS/Lesson3A | cat -n  -u | tee $HOME/Desktop/NN-Lesson3a.tsv
+
+# Note: Replace NN (which is the first two digits in NN-Lesson3a.csv) with your two digits ID number.
+
+# Note: Type Control-C to stop mosquitto_sub. After stopping the commandline on T4, find a new file which name is NN-Lesson3a.tsv on your Desktop
+
+
+# ----------------------------------------------------------
+
+# (Step5)
+
+# Note:  The same trial with Step4 but use the public broker on the croud
+
+(T2)$ cu -f -s 57600 -l /dev/ttyS3 | nkf -u -Lw | mosquitto_pub -l -t MGWS/NN-Lesson3A -h broker.hivemq.com -I clientId
+
+(T3)$ mosquitto_sub -t MGWS/NN-Lesson3A -h broker.hivemq.com -I clientId
+
+(T4)$ mosquitto_sub -t MGWS/NN-Lesson3A -h broker.hivemq.com -I clientId | cat -n -u | tee $HOME/Desktop/NN-Lesson3A.tsv
+
+# Note: Replace NN (which is the first two digits in NN-Lesson3A.tsv) with your two digits ID number.
+
+# Note: Type Control-C to stop mosquitto_sub. After stopping the command line on T4, find a new file which name is NN-Lesson2b.csv on your Desktop
+
+
+# ----------------------------------------------------------
