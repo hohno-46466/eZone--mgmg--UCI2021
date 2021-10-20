@@ -1,7 +1,7 @@
 #
 # (0-1) Update and upgrade your apt environment 
 #
-# Last update: Thu Jul 22 20:59:12 JST 2021 by @hohno_at_kuimc
+# Last update: Thu Oct 21 07:01:47 JST 2021 by @hohno_at_kuimc
 #
 
 # Public domain
@@ -23,5 +23,11 @@ $ sudo apt update
 # (Step2) Upgrade your apt environment (update the installed packages)
 
 $ sudo apt upgrade
+
+# ----------------------------------------------------------
+
+# You can use the follwoing command instead of the two steps above:
+
+$ sudo apt update && sudo apt upgrade
 
 # ----------------------------------------------------------

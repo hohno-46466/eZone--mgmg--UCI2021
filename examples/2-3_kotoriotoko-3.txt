@@ -1,0 +1,66 @@
+#
+# (2-3) Message and MQTT makes an interesting messageing tool
+#
+# Last update: Thu Oct 21 06:45:19 JST 2021 by @hohno_at_kuimc
+#
+
+# Public domain
+
+# ----------------------------------------------------------
+
+# Description:  How to combine kotoriotoko and MQTT
+
+# Requirement: mosquitto clients and the Kotoriotoko commands must be installed
+
+# ----------------------------------------------------------
+# Receive messages from MQTT broker format them, send them Twitter
+# ----------------------------------------------------------
+
+# The following command lines do not work as expected
+
+(T3)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}'
+
+(T3)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}' | sh -x
+
+# ----------------------------------------------------------
+
+# The followings are good!
+
+(T3)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name \"%s,%s,%s\"\n", NR,"$(date +%s)",$0; fflush()}'
+
+(T3)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name \"%s,%s,%s\"\n", NR,"$(date +%s)",$0; fflush()}' | sh -x 
+
+# ----------------------------------------------------------
+# Send some messages to MQTT broker
+# ----------------------------------------------------------
+
+# Type something to send messages to MQTT broker
+
+(T3)$  mosquitto_pub -l -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId      
+
+# ----------------------------------------------------------
+
+# The following example should not use before you understand how to use cu command
+# The TTY device name (/dev/ttyS3) may vary depending on your case (as usual).
+
+(T3)$ cu -f -s 57600 -l /dev/ttyS3 | nkf -u -Lw | mosquitto_pub -l -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId      
+
+# If you can not start cu command, check the permission of the TTY device.  The following commands may be useful in some caseis.
+
+(T3)$ ls -l /dev/ttyS3
+(T3)$ sudo chmod 666 /dev/ttyS3 
+(T3)$ ls -l /dev/ttyS3
+
+# if you still can not get the cu command to work, try it again with sudo command.
+
+(T3)$ sudo cu -f -s 57600 -l /dev/ttyS3 | nkf -u -Lw | mosquitto_pub -l -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId      
+
+# ----------------------------------------------------------
+
+# Important notice. You can use the tweet.sh command instead of the dmtweet.sh command.
+# However, if you frequently send meaningless test messages like the one above with the tweet.sh command,
+# your colleagues will be very annoyed by the messages.
+# Some of them will worry that your twitter account has been hijacked.
+
+# ----------------------------------------------------------
+
