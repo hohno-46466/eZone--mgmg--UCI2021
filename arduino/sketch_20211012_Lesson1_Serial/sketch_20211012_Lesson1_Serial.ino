@@ -48,8 +48,8 @@ void loop() {
 
   // update the value of the currentState
   // currentState = serialState;
-  currentState = buttonState;
-  // currentState = buttonState | serialState;
+  // currentState = buttonState;
+  currentState = buttonState | serialState;
 
   if (currentState != prevState) {
     counter++;
