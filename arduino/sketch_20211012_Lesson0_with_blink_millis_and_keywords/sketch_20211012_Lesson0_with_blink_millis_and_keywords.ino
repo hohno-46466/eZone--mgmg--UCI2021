@@ -14,7 +14,6 @@ void loop() {
   Serial.print(millis());
   Serial.println("\t\"hello, world 4!\""); // prints a string to a serial port
   delay(500); //delay of 0.5 second
-
-  delay(500); //delay of 0.5 second
   digitalWrite(GBKA_LED_PIN, LOW);
+  delay(500); //delay of 0.5 second
 }
