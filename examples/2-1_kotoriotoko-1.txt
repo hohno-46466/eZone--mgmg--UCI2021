@@ -18,8 +18,9 @@
 
 # Note: 
 
-(T2)$ dmtweet.sh -t twetter_ID this is my direct message from kotoriotoko 
+(T2)$ dmtweet.sh -t twetter_ID This is my direct message from kotoriotoko 1
 
+(T2)$ dmtweet.sh -t twetter_ID "This is my direct message from kotoriotoko 2" 
 
 # ----------------------------------------------------------
 
@@ -27,7 +28,9 @@
 
 # Note: 
 
-(T2)$ dmtweet.sh -t twetter_ID  #  Type any messages as you want...
+#  Type any messages as you want...
+  
+(T2)$ dmtweet.sh -t twetter_ID
        The quick brown fox jumps over the lazy dog
        1
        2
@@ -41,6 +44,8 @@
 # Note: 
 
 (T2)$ echo "This is my second direct message from kotoriotoko" |  dmtweet.sh -t twetter_ID 
+
+(T2)$ date |  dmtweet.sh -t twetter_ID 
 
 # Note:
 
