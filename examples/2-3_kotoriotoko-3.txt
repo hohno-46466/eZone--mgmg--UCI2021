@@ -18,17 +18,17 @@
 
 # The following command lines do not work as expected
 
-(T3)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}'
+(T2)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}'
 
-(T3)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}' | sh -x
+(T2)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}' | sh -x
 
 # ----------------------------------------------------------
 
 # The followings are good!
 
-(T3)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name \"%s,%s,%s\"\n", NR,"$(date +%s)",$0; fflush()}'
+(T2)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name \"%s,%s,%s\"\n", NR,"$(date +%s)",$0; fflush()}'
 
-(T3)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name \"%s,%s,%s\"\n", NR,"$(date +%s)",$0; fflush()}' | sh -x 
+(T2)$ mosquitto_sub -t MGWS/NN-Leeson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name \"%s,%s,%s\"\n", NR,"$(date +%s)",$0; fflush()}' | sh -x 
 
 # ----------------------------------------------------------
 # Send some messages to MQTT broker
