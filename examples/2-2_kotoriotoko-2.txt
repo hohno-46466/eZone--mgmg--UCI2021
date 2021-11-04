@@ -48,11 +48,12 @@
 # ----------------------------------------------------------
 
 
-# (Step4) If you know Step3, then you can do it.
+# (Step4) If you know Step3, then you can also do it.
 
 # Note: 
 
 (T2)$ mosquitto_sub -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}'
+
 (T3)$ mosquitto_pub -l -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId 
 
 # Note:
@@ -65,11 +66,14 @@
 
 # Note: 
 
-(T3)$ mosquitto_sub -t MGWS/NN-Lesson2 | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}'
+# First, try this first
+(T2)$ mosquitto_sub -t MGWS/NN-Lesson2 | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}'
 
-(T3)$ mosquitto_sub -t MGWS/NN-Lesson2 | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}' | sh -x
+# If the above works fine, then try this
+(T2)$ mosquitto_sub -t MGWS/NN-Lesson2 | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}' | sh -x
 
-(T2)$ mosquitto_pub -l -t MGWS/NN-Lesson2
+# Send messages to MGWS/NN-Lesson2 on localhost
+(T3)$ mosquitto_pub -l -t MGWS/NN-Lesson2
 
 # Note:
 
@@ -79,11 +83,14 @@
 
 # Note: 
 
-(T3)$ mosquitto_sub -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}'
+# First, try this first
+(T2)$ mosquitto_sub -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}'
 
-(T3)$ mosquitto_sub -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}' | sh -x
+# If the above works fine, then try this
+(T2)$ mosquitto_sub -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId | gawk '{printf "dmtweet.sh -t twitter_name %s,%s,%s\n", NR,systime(),$0; fflush()}' | sh -x
 
-(T2)$ mosquitto_pub -l -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId 
+# Send messages to MGWS/NN-Lesson2 on broker.hivemq.com
+(T3)$ mosquitto_pub -l -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId 
 
 # ----------------------------------------------------------
 
