@@ -16,13 +16,18 @@
 
 # (Step1) Introducing awk command
 
-# Note: awk command is a scriping little language which has been avilable as one of the posix commad
+# Note: The awk command is a small scripting language that has been available for a long time as one of the posix commands.
 
 # Note: gawk is GNU version of awk command.
 
-(T2)$ gawk '{printf "%d,%s\n", NR,$0; fflush()}'  # Type control-D to stop
+(T2)$ gawk '{printf "%d,%s\n", NR,$0; fflush()}'
 
-(T2)$ gawk '{printf "%s,%s,%s\n", NR,systime(),$0; fflush()}'  # Type control-D to stop
+# Note: Type something followed by ENTER as much as you wish, then type control-D to stop
+
+
+(T2)$ gawk '{printf "%s,%s,%s\n", NR,systime(),$0; fflush()}'
+
+# Note: Type something followed by ENTER as much as you wish, then type control-D to stop
 
 
 # ----------------------------------------------------------

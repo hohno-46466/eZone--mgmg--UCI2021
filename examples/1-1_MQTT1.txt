@@ -24,6 +24,7 @@
 
 (T2)$ mosquitto_sub -t MGWS/Test99
 
+# Note:  "MGWS" as a MQTT topic with "-t" option is short for "Monogramming Workshop"
 # Note: Type control-C to stop the subscriber (mosquitto_sub) above. 
 
 # ----------------------------------------------------------
@@ -32,7 +33,11 @@
 
 (T3)$ echo "Hello,Halifax!" 
 
+# Note: "Halifax" is the name of a city in Canada
+
 (T3)$ echo "Hello,Halifax!" | mosquitto_pub -l -t MGWS/Test99
+
+# Note: Send the message to the MQTT broker by using mosquitto_pub command
 
 (T3)$ mosquitto_pub -l -t MGWS/Test99 # You can type as much as you want until typing Control-D
 	Type any messages as you want...
@@ -41,6 +46,8 @@
 	2
 	3
 	Control-D
+
+# Note: You can send the "End of data" signal to mosquitto_pub by typing Control-D
 
 # ----------------------------------------------------------
 

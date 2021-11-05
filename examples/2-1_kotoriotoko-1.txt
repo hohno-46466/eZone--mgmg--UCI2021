@@ -16,7 +16,7 @@
 
 # (Step1) 
 
-# Note: 
+# Note: Try to understand the diffrence between two example command lines
 
 (T2)$ dmtweet.sh -t twetter_ID This is my direct message from kotoriotoko 1
 

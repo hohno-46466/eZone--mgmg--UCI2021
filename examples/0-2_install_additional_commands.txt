@@ -35,5 +35,9 @@ $ which -a cu gawk nkf mosquitto mosquitto_sub mosquitto_pub
 
 # Other useful commands will be introduced in the lecture.
 
+# If you would like to know the list of installed packages, use the following command:
+$ apt list --installed
+# ( You don't need to start with "sudo" )
+
 # ----------------------------------------------------------
 
