@@ -1,4 +1,6 @@
 
+(1) GBKA
+
 Grove Beginner Kit for Arduino User Manual
  
   https://files.seeedstudio.com/wiki/Grove-Beginner-Kit-For-Arduino/res/Grove-Beginner-Kit-For-ArduinoPDF.pdf
@@ -26,11 +28,23 @@ Download Arduino IDE
 
   https://www.arduino.cc/en/software
 
+
+How to use sscanf()
+
+  https://monozukuri-c.com/langc-funclist-sscanf/
+
+  http://www9.plala.or.jp/sgwr-t/lib/sscanf.html
+
+
+(2) POSIX Environment
+
 WSL
 
   https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
 
   https://ja.wikipedia.org/wiki/Windows_Subsystem_for_Linux
+
+(3) Little Languages, useful tools, and MQTT
 
 AWK
 
@@ -44,16 +58,10 @@ Comparison of MQTT implementations
 
   https://en.wikipedia.org/wiki/Comparison_of_MQTT_implementations
 
-
 kotoriotoko
 
   https://github.com/ShellShoccar-jpn/kotoriotoko
 
-How to use sscanf()
-
-  https://monozukuri-c.com/langc-funclist-sscanf/
-
-  http://www9.plala.or.jp/sgwr-t/lib/sscanf.html
 
 -EOF-
 
