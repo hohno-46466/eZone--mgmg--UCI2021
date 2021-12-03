@@ -1,69 +1,69 @@
 
 (1) GBKA
 
-Grove Beginner Kit for Arduino User Manual
- 
-  https://files.seeedstudio.com/wiki/Grove-Beginner-Kit-For-Arduino/res/Grove-Beginner-Kit-For-ArduinoPDF.pdf
-  
+- Grove Beginner Kit for Arduino User Manual
 
-センサー活用入門 [ SU-1203 ]
-
-  https://www.elekit.co.jp/product/SU-1203
-  
-  https://www.elekit.co.jp/product/docs/addpage_file159.pdf
+  - https://files.seeedstudio.com/wiki/Grove-Beginner-Kit-For-Arduino/res/Grove-Beginner-Kit-For-ArduinoPDF.pdf
 
 
-モーター・リレー・ブザー制御入門 [ SU-1204 ]
+- センサー活用入門 [ SU-1203 ]
 
-  https://www.elekit.co.jp/product/SU-1204
-  
-  https://www.elekit.co.jp/product/docs/addpage_file160.pdf
-   
+  - https://www.elekit.co.jp/product/SU-1203
 
-UART
-
-  https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
+  - https://www.elekit.co.jp/product/docs/addpage_file159.pdf
 
 
-Download Arduino IDE
+- モーター・リレー・ブザー制御入門 [ SU-1204 ]
 
-  https://www.arduino.cc/en/software
+  - https://www.elekit.co.jp/product/SU-1204
+
+  - https://www.elekit.co.jp/product/docs/addpage_file160.pdf
 
 
-How to use sscanf()
+- - UART
 
-  https://monozukuri-c.com/langc-funclist-sscanf/
+  - https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
 
-  http://www9.plala.or.jp/sgwr-t/lib/sscanf.html
+
+- - Download Arduino IDE
+
+  - https://www.arduino.cc/en/software
+
+
+- How to use sscanf()
+
+  - https://monozukuri-c.com/langc-funclist-sscanf/
+
+  - http://www9.plala.or.jp/sgwr-t/lib/sscanf.html
 
 
 (2) POSIX Environment
 
-WSL
+- WSL
 
-  https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux (in English)
+  - https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux (in English)
 
-  https://ja.wikipedia.org/wiki/Windows_Subsystem_for_Linux (in Japanese)
+  - https://ja.wikipedia.org/wiki/Windows_Subsystem_for_Linux (in Japanese)
 
 
 (3) Little Languages, useful tools, and MQTT
 
-AWK
+- AWK
 
-  https://en.wikipedia.org/wiki/AWK
-  
-MQTT
+  - https://en.wikipedia.org/wiki/AWK
 
-  https://en.wikipedia.org/wiki/MQTT
+- MQTT
 
-Comparison of MQTT implementations
+  - https://en.wikipedia.org/wiki/MQTT
 
-  https://en.wikipedia.org/wiki/Comparison_of_MQTT_implementations
+- Comparison of MQTT implementations
 
-kotoriotoko
+  - https://en.wikipedia.org/wiki/Comparison_of_MQTT_implementations
 
-  https://github.com/ShellShoccar-jpn/kotoriotoko
+- kotoriotoko
+
+  - https://github.com/ShellShoccar-jpn/kotoriotoko
 
 
--EOF-
+- -EOF-
 
