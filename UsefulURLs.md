@@ -19,38 +19,41 @@ Grove Beginner Kit for Arduino User Manual
    
 UART
 
-    https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
+  https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
 
 
 Download Arduino IDE
 
-    https://www.arduino.cc/en/software
+  https://www.arduino.cc/en/software
 
 WSL
 
-    https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
+  https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
 
-    https://ja.wikipedia.org/wiki/Windows_Subsystem_for_Linux
+  https://ja.wikipedia.org/wiki/Windows_Subsystem_for_Linux
 
 AWK
 
-    https://en.wikipedia.org/wiki/AWK
-    
+  https://en.wikipedia.org/wiki/AWK
+  
 MQTT
 
-    https://en.wikipedia.org/wiki/MQTT
+  https://en.wikipedia.org/wiki/MQTT
 
 Comparison of MQTT implementations
 
-    https://en.wikipedia.org/wiki/Comparison_of_MQTT_implementations
+  https://en.wikipedia.org/wiki/Comparison_of_MQTT_implementations
 
 
 kotoriotoko
 
-    https://github.com/ShellShoccar-jpn/kotoriotoko
+  https://github.com/ShellShoccar-jpn/kotoriotoko
 
 How to use sscanf()
 
-    https://monozukuri-c.com/langc-funclist-sscanf/
+  https://monozukuri-c.com/langc-funclist-sscanf/
 
-    http://www9.plala.or.jp/sgwr-t/lib/sscanf.html
+  http://www9.plala.or.jp/sgwr-t/lib/sscanf.html
+
+-EOF-
+
