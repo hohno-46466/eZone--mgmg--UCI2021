@@ -19,6 +19,7 @@ Grove Beginner Kit for Arduino User Manual
   
   https://www.elekit.co.jp/product/docs/addpage_file160.pdf
    
+
 UART
 
   https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
@@ -40,9 +41,10 @@ How to use sscanf()
 
 WSL
 
-  https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
+  https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux (in English)
 
-  https://ja.wikipedia.org/wiki/Windows_Subsystem_for_Linux
+  https://ja.wikipedia.org/wiki/Windows_Subsystem_for_Linux (in Japanese)
+
 
 (3) Little Languages, useful tools, and MQTT
 
