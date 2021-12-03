@@ -20,12 +20,12 @@
   - https://www.elekit.co.jp/product/docs/addpage_file160.pdf
 
 
-- - UART
+- UART
 
   - https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
 
 
-- - Download Arduino IDE
+- Download Arduino IDE
 
   - https://www.arduino.cc/en/software
 
@@ -65,5 +65,5 @@
   - https://github.com/ShellShoccar-jpn/kotoriotoko
 
 
-- -EOF-
+-EOF-
 
