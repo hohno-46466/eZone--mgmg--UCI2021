@@ -1,26 +1,30 @@
 GitHub/eZone--mgws--2108/Arduino
 
-    - - - Lesson0 - How To Get Started With Adruino
+   Actuator 
+   ↓ Sensor
+   ↓ ↓ Display
+   ↓ ↓ ↓
+    -  -  -  Lesson0  - How To Get Started With Adruino
     
-    A - - Lesson1 - Blinking with the LED
+    A  -  -  Lesson1  - Blinking with the LED
     
-    a S - Lesson2 - Pressing Button to Light Up LED
+    a  S  -  Lesson2  - Pressing Button to Light Up LED
     
-    A S - Lesson3 - Controlling the Speed of the Blink
+    A  S  -  Lesson3  - Controlling the Speed of the Blink
     
-    A s - Lesson4 - Making the Buzzer go BEEP
+    A  s  -  Lesson4  - Making the Buzzer go BEEP
     
-    A s - Lesson5 - Making the Light induct LED
+    A  s  -  Lesson5  - Making the Light induct LED
     
-    a S - Lesson6 - Sound Senstive LED Light
+    a  S  -  Lesson6  - Sound Senstive LED Light
     
-    - - D Lesson7 - Displaying Data on OLED
+    -  -  D  Lesson7  - Displaying Data on OLED
     
-    - S D Lesson8 - Detecting Temperature & Humidity
+    -  S  D  Lesson8  - Detecting Temperature & Humidity
     
-    - S - Lesson9 - Measuring Air Pressure
+    -  S  -  Lesson9  - Measuring Air Pressure
     
-    - S - Lesson10 - Sensing Movement
+    -  S  -  Lesson10 - Sensing Movement
     
 
 
