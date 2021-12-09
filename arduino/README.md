@@ -1,9 +1,10 @@
 GitHub/eZone--mgws--2108/Arduino
 
-   Actuator 
-   ↓ Sensor
-   ↓ ↓ Display
-   ↓ ↓ ↓
+
+    Actuator 
+    ↓ Sensor
+    ↓ ↓ Display
+    ↓ ↓ ↓
     -  -  -  Lesson0  - How To Get Started With Adruino
 			Topics: Serial.begin(), Serial.print()
     
