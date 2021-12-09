@@ -12,10 +12,10 @@ GitHub/eZone--mgws--2108/Arduino
 			Topics: pinMode(), digitalWrite()
     
     a  S  -  Lesson2  - Pressing Button to Light Up LED
-   			Topics: digitalRead()
+   			Topic: digitalRead()
  
     A  S  -  Lesson3  - Controlling the Speed of the Blink
-			Topics: analogRead()
+			Topic: analogRead()
     
     A  s  -  Lesson4  - Making the Buzzer go BEEP
 			Topics: map(), analogWrite()
