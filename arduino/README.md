@@ -39,7 +39,6 @@ GitHub/eZone--mgws--2108/Arduino
 			Topics: 3-Axis Digital Accelerometer
     
 
-
     arduino
      ├── README.md
      ├── mgws2108
@@ -88,10 +87,10 @@ GitHub/eZone--mgws--2108/Arduino
      │   └── sketch_20211012_Lesson2_with_notify_millies_and_keywords.ino
      ├── sketch_20211106_Lesson10
      │   └── sketch_20211106_Lesson10.ino
-     ├── sketch_20211106_Lesson11
-     │   └── sketch_20211106_Lesson11.ino
      ├── sketch_20211106_Lesson3
      │   └── sketch_20211106_Lesson3.ino
+     ├── sketch_20211106_Lesson3_with_notify_millis_and_keywords
+     │   └── sketch_2021106_Lesson3_with_notify_millis_and_keywords.ino
      ├── sketch_20211106_Lesson4
      │   └── sketch_20211106_Lesson4.ino
      ├── sketch_20211106_Lesson5
@@ -105,6 +104,5 @@ GitHub/eZone--mgws--2108/Arduino
      └── sketch_20211106_Lesson9
          └── sketch_20211106_Lesson9.ino
      
-     31 directories, 32 files (Thu Dec  9 16:04:10 JST 2021)
+     31 directories, 32 files (Thu Dec  9 17:00:31 JST 2021)
 
--EOF-

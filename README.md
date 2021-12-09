@@ -2,9 +2,9 @@
 
 UCI Lecture on Monogramming 2021
 
-
     eZone--mgmg--UCI2021
      ├── README.md
+     ├── UsefulURLs.md
      ├── arduino
      │   ├── README.md
      │   ├── mgws2108  # Copied from the Monogramming workshop 202108
@@ -27,8 +27,26 @@ UCI Lecture on Monogramming 2021
      │   │   └── sketch_20211012_Lesson1_Serial.ino
      │   ├── sketch_20211012_Lesson2
      │   │   └── sketch_20211012_Lesson2.ino
-     │   └── sketch_20211012_Lesson2_with_notify_millies_and_keywords
-     │       └── sketch_20211012_Lesson2_with_notify_millies_and_keywords.ino
+     │   ├── sketch_20211012_Lesson2_with_notify_millies_and_keywords
+     │   │   └── sketch_20211012_Lesson2_with_notify_millies_and_keywords.ino
+     │   ├── sketch_20211106_Lesson10
+     │   │   └── sketch_20211106_Lesson10.ino
+     │   ├── sketch_20211106_Lesson3
+     │   │   └── sketch_20211106_Lesson3.ino
+     │   ├── sketch_20211106_Lesson3_with_notify_millis_and_keywords
+     │   │   └── sketch_2021106_Lesson3_with_notify_millis_and_keywords.ino
+     │   ├── sketch_20211106_Lesson4
+     │   │   └── sketch_20211106_Lesson4.ino
+     │   ├── sketch_20211106_Lesson5
+     │   │   └── sketch_20211106_Lesson5.ino
+     │   ├── sketch_20211106_Lesson6
+     │   │   └── sketch_20211106_Lesson6.ino
+     │   ├── sketch_20211106_Lesson7
+     │   │   └── sketch_20211106_Lesson7.ino
+     │   ├── sketch_20211106_Lesson8
+     │   │   └── sketch_20211106_Lesson8.ino
+     │   └── sketch_20211106_Lesson9
+     │       └── sketch_20211106_Lesson9.ino
      ├── examples
      │   ├── 0-1_update_your_apt.txt
      │   ├── 0-2_install_additional_commands.txt
@@ -45,5 +63,5 @@ UCI Lecture on Monogramming 2021
      └── scripts
          └── README.md
      
-     26 directories, 36 files (Fri Nov  5 23:54:51 JST 2021)
+     35 directories, 46 files (Thu Dec  9 17:01:32 JST 2021)
 
