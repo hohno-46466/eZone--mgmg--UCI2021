@@ -5,26 +5,37 @@ GitHub/eZone--mgws--2108/Arduino
    ↓ ↓ Display
    ↓ ↓ ↓
     -  -  -  Lesson0  - How To Get Started With Adruino
+			Topics: Serial.begin(), Serial.print()
     
     A  -  -  Lesson1  - Blinking with the LED
+			Topics: pinMode(), digitalWrite()
     
     a  S  -  Lesson2  - Pressing Button to Light Up LED
-    
+   			Topics: digitalRead()
+ 
     A  S  -  Lesson3  - Controlling the Speed of the Blink
+			Topics: analogRead()
     
     A  s  -  Lesson4  - Making the Buzzer go BEEP
+			Topics: map(), analogWrite()
     
     A  s  -  Lesson5  - Making the Light induct LED
+			Topics: analogRead(), Serial.print(), Serial Monitor
     
     a  S  -  Lesson6  - Sound Senstive LED Light
+			Topics: Serial.print(), Serial Plottor
     
     -  -  D  Lesson7  - Displaying Data on OLED
+			Topics: I2C, OLED
     
     -  S  D  Lesson8  - Detecting Temperature & Humidity
+			Topics: OLED, DHT11, Arduino Libraries
     
     -  S  -  Lesson9  - Measuring Air Pressure
+			Topic: BMP280
     
     -  S  -  Lesson10 - Sensing Movement
+			Topics: 3-Axis Digital Accelerometer
     
 
 
