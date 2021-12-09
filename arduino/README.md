@@ -1,5 +1,28 @@
 GitHub/eZone--mgws--2108/Arduino
 
+- - - Lesson0 - How To Get Started With Adruino
+
+A - - Lesson1 - Blinking with the LED
+
+a S - Lesson2 - Pressing Button to Light Up LED
+
+A S - Lesson3 - Controlling the Speed of the Blink
+
+A s - Lesson4 - Making the Buzzer go BEEP
+
+A s - Lesson5 - Making the Light induct LED
+
+a S - Lesson6 - Sound Senstive LED Light
+
+- - D Lesson7 - Displaying Data on OLED
+
+- S D Lesson8 - Detecting Temperature & Humidity
+
+- S - Lesson9 - Measuring Air Pressure
+
+- S - Lesson10 - Sensing Movement
+
+
     arduino
      ├── README.md
      ├── mgws2108
@@ -44,9 +67,27 @@ GitHub/eZone--mgws--2108/Arduino
      │   └── sketch_20211012_Lesson1_Serial.ino
      ├── sketch_20211012_Lesson2
      │   └── sketch_20211012_Lesson2.ino
-     └── sketch_20211012_Lesson2_with_notify_millies_and_keywords
-         └── sketch_20211012_Lesson2_with_notify_millies_and_keywords.ino
+     ├── sketch_20211012_Lesson2_with_notify_millies_and_keywords
+     │   └── sketch_20211012_Lesson2_with_notify_millies_and_keywords.ino
+     ├── sketch_20211106_Lesson10
+     │   └── sketch_20211106_Lesson10.ino
+     ├── sketch_20211106_Lesson11
+     │   └── sketch_20211106_Lesson11.ino
+     ├── sketch_20211106_Lesson3
+     │   └── sketch_20211106_Lesson3.ino
+     ├── sketch_20211106_Lesson4
+     │   └── sketch_20211106_Lesson4.ino
+     ├── sketch_20211106_Lesson5
+     │   └── sketch_20211106_Lesson5.ino
+     ├── sketch_20211106_Lesson6
+     │   └── sketch_20211106_Lesson6.ino
+     ├── sketch_20211106_Lesson7
+     │   └── sketch_20211106_Lesson7.ino
+     ├── sketch_20211106_Lesson8
+     │   └── sketch_20211106_Lesson8.ino
+     └── sketch_20211106_Lesson9
+         └── sketch_20211106_Lesson9.ino
      
-     22 directories, 23 files (Fri Nov  5 23:55:29 JST 2021)
+     31 directories, 32 files (Thu Dec  9 16:04:10 JST 2021)
 
 -EOF-
