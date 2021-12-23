@@ -22,7 +22,7 @@ void loop() {
     rotaryValue = map(rotaryValue, 0, 1023, 2000, 0);
     if (rotaryValue != prevValue) {
         uint32_t tNow = millis();
-        Serial.print("N/A");
+        Serial.print("N/A ");
         Serial.print("N/A ");
         Serial.print(tNow/1000); Serial.print("."); Serial.print(tNow%1000); Serial.print(" ");
         Serial.print(MY_KEYWORD); Serial.print(" ");
