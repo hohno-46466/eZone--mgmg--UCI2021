@@ -28,7 +28,7 @@ void loop() {
 	int x = tNow % 1000;
 	if (x < 10) { Serial.print("0"); }
 	if (x < 100) { Serial.print("0"); }
-	Serial.print(x); Serial.print(" ");
+	Serial.print(x); Serial.print(" "); //  <-- printf("%d.%03d ", tNow/1000, tNow%1000);
         Serial.print(MY_KEYWORD); Serial.print(" ");
         Serial.print(cnt); Serial.print(" ");
         Serial.println(rotaryValue);
