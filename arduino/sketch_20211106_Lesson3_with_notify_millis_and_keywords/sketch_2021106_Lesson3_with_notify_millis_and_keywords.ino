@@ -24,18 +24,22 @@ void loop() {
         uint32_t tNow = millis();
         Serial.print("N/A ");
         Serial.print("N/A ");
-        Serial.print(tNow/1000); Serial.print("."); Serial.print(tNow%1000); Serial.print(" ");
+        Serial.print(tNow/1000); Serial.print("."); 
+	int x = tNow % 1000;
+	if (x < 10) { Serial.print("0"); }
+	if (x < 100) { Serial.print("0"); }
+	Serial.print(x); Serial.print(" ");
         Serial.print(MY_KEYWORD); Serial.print(" ");
         Serial.print(cnt); Serial.print(" ");
         Serial.println(rotaryValue);
 
         // turn the ledPin on
         digitalWrite(ledPin, HIGH);
-        // stop the program for <sensorValue> milliseconds:
+        // stop the program for 100 milliseconds:
         delay(100);
         // turn the ledPin off:
         digitalWrite(ledPin, LOW);
-        // stop the program for for <sensorValue> milliseconds:
+        // stop the program for 100 milliseconds:
         delay(100);
         prevValue = rotaryValue;
         cnt++;
