@@ -77,8 +77,8 @@ UCI Lecture on Monogramming 2021
      35 directories, 35 files (Wed Jul 13 17:35:07 JST 2022)
 
 
-# Note: url = https://github.com/hohno-46466/eZone--mgmg--UCI2021
+Note: url = https://github.com/hohno-46466/eZone--mgmg--UCI2021
 
-# Note: url = git@github.com:hohno-46466/eZone--mgmg--UCI2021.git
+Note: url = git@github.com:hohno-46466/eZone--mgmg--UCI2021.git
 
 -EOF-
