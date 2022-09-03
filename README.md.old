@@ -2,7 +2,7 @@
 
 UCI Lecture on Monogramming 2021
 
-    ./eZone--mgmg--UCI2021
+    ./eZone--mgmg--UCI2021/
      ├──  README.md
      ├──  README.md.old
      ├──  README.md.orig
@@ -74,7 +74,7 @@ UCI Lecture on Monogramming 2021
      └──  scripts/
          └──  README.md
      
-     35 directories, 35 files (Sun Aug 28 21:29:37 JST 2022)
+     35 directories, 35 files (Tue Aug 30 13:17:42 JST 2022)
 
 
 Note: URL = https://github.com/hohno-46466/eZone--mgmg--UCI2021
