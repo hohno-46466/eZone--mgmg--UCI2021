@@ -9,7 +9,7 @@ UCI Lecture on Monogramming 2021
      ├──  UsefulURLs.md
      ├──  arduino/
      │   ├──  README.md
-     │   ├──  mgws2108/
+     │   ├──  old-mgws2108/
      │   │   ├──  sketch_20210823_GBKA_Blink/
      │   │   ├──  sketch_20210823_Lesson0/
      │   │   ├──  sketch_20210823_Lesson0_with_blink/
@@ -55,7 +55,8 @@ UCI Lecture on Monogramming 2021
      │   ├──  sketch_20211106_Lesson7/
      │   │   └──  sketch_20211106_Lesson7.ino
      │   ├──  sketch_20211106_Lesson8/
-     │   │   └──  sketch_20211106_Lesson8.ino
+     │   │   ├──  sketch_20211106_Lesson8.ino
+     │   │   └──  sketch_20211106_Lesson8.ino.orig
      │   └──  sketch_20211106_Lesson9/
      │       └──  sketch_20211106_Lesson9.ino
      ├──  examples/
@@ -74,7 +75,7 @@ UCI Lecture on Monogramming 2021
      └──  scripts/
          └──  README.md
      
-     35 directories, 35 files (Wed Dec 28 13:25:57 JST 2022)
+     36 directories, 36 files (Tue Apr 11 23:33:49 JST 2023)
 
 
 Note: URL = https://github.com/hohno-46466/eZone--mgmg--UCI2021
