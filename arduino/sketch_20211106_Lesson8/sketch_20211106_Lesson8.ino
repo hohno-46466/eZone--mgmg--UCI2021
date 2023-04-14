@@ -6,9 +6,14 @@
 #include <Arduino.h>
 #include <U8x8lib.h>
 #define DHTPIN 3 // what pin we're connected to
+<<<<<<< HEAD
 // #define DHTTYPE DHT11
 #define DHTTYPE DHT20
 #define OUTPUT_INTERVAL (500) // in msec
+=======
+#define DHTTYPE DHT11 // old GBKA
+// #define DHTTYPE DHT20 // new GBKA
+>>>>>>> 8f540560cde1ab255a9440f8e19da3d35664ddea
 
 DHT dht(DHTPIN, DHTTYPE);
 U8X8_SSD1306_128X64_ALT0_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
