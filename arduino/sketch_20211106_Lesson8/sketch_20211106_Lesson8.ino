@@ -6,14 +6,9 @@
 #include <Arduino.h>
 #include <U8x8lib.h>
 #define DHTPIN 3 // what pin we're connected to
-<<<<<<< HEAD
-// #define DHTTYPE DHT11
-#define DHTTYPE DHT20
-#define OUTPUT_INTERVAL (500) // in msec
-=======
 #define DHTTYPE DHT11 // old GBKA
 // #define DHTTYPE DHT20 // new GBKA
->>>>>>> 8f540560cde1ab255a9440f8e19da3d35664ddea
+#define OUTPUT_INTERVAL (500) // in msec
 
 DHT dht(DHTPIN, DHTTYPE);
 U8X8_SSD1306_128X64_ALT0_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
@@ -24,7 +19,7 @@ void setup(void) {
   u8x8.begin();
   u8x8.setPowerSave(0);
   u8x8.setFlipMode(1);
-  /**moved**/. dht.begin();
+  /**moved**/ dht.begin();
 }
 
 void loop(void) {
