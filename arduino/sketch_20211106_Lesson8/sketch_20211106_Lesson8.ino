@@ -1,23 +1,25 @@
 //Temperature and Humidity Sensor
 //updated by @hohno_at_kuimc to fit for the monogramming approach (2023-04-07)
+//updated by @hohno_at_kuimc to work with new GBKA (2023-04-14)
 
 #include "DHT.h"
 #include <Arduino.h>
 #include <U8x8lib.h>
 #define DHTPIN 3 // what pin we're connected to
-#define DHTTYPE DHT11 // DHT 11
+// #define DHTTYPE DHT11
+#define DHTTYPE DHT20
+#define OUTPUT_INTERVAL (500) // in msec
 
 DHT dht(DHTPIN, DHTTYPE);
 U8X8_SSD1306_128X64_ALT0_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
 
 void setup(void) {
-  //removed// Serial.begin(9600);
-  /**added**/ Serial.begin(57600);
+  /**modified**/ Serial.begin(57600);
   //removed// Serial.println("DHTxx test!");
-  dht.begin();
   u8x8.begin();
   u8x8.setPowerSave(0);
   u8x8.setFlipMode(1);
+  /**moved**/. dht.begin();
 }
 
 void loop(void) {
@@ -37,5 +39,5 @@ void loop(void) {
   /**added**/ Serial.print(millis()), Serial.print("\t");
   /**added**/ Serial.print(temp), Serial.print("\t");
   /**added**/ Serial.print(humi), Serial.println();
-  delay(200);
+  delay(OUTPUT_INTERVAL);
 }
