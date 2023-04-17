@@ -6,8 +6,8 @@
 #include <Arduino.h>
 #include <U8x8lib.h>
 #define DHTPIN 3 // what pin we're connected to
-#define DHTTYPE DHT11 // old GBKA
-// #define DHTTYPE DHT20 // new GBKA
+#define DHTTYPE DHT11 // GBKA with a light blue temp/himidity sensor (old version)
+//#define DHTTYPE DHT20 // GBKA with a black temp/himidity sensor (new version)
 #define OUTPUT_INTERVAL (500) // in msec
 
 DHT dht(DHTPIN, DHTTYPE);
